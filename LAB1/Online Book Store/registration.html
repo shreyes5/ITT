@@ -1,8 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>User Registration</title>
+    <title>User Registration</title>
 </head>
+
 <body>
+
+    <form action="action_page.php">
+
+        <h1>Register</h1>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required><br><br>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required><br><br>
+
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required><br><br>
+        <hr>
+
+        <button type="submit" class="registerbtn">Register</button>
+
+
+
+        <p>Already have an account? <a href="login.html">Login here</a>.</p>
+
+    </form>
+
 </body>
+
 </html>
