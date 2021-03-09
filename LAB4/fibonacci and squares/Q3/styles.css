@@ -1,0 +1,31 @@
+body {
+    font-family: verdana;
+    font-size: 24pt;
+    }
+     
+    #one {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+     
+    background-color: black;
+    color: white;
+    }
+     
+    #two {
+    position: absolute;
+    top: 220px;
+    left: 320px;
+     
+    background-color: cyan;
+    color: black;
+    }
+     
+    #three {
+    position: absolute;
+    top: 240px;
+    left: 340px;
+     
+    background-color: pink;
+    color: yellow;
+    }
